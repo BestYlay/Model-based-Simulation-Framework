@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and model artifacts
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pth
+*.pt
+*.joblib
+msk_chord_2024/
+outputs/
+artifacts/
+brca/
+crc/
+nsclc/
+panc/
+prostate/
+
+# Generated plots and logs
+*.png
+*.pdf
+*.log
+progress_*.txt
